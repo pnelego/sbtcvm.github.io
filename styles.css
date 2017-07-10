@@ -28,9 +28,14 @@ border-bottom-color: #424242;
 	color: #DADADA;
 }
 
+
+
+
 .social{
-	padding-top: 3%;
+	color: black;
+	padding-top: 8%;
 	font-size: 200%;
+	
 }
 
 .hometext{
@@ -39,8 +44,14 @@ border-bottom-color: #424242;
 }
 
 .line{
+	/*
 	border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-top: 1px solid red;
+    */
+
+    height: 3px;
+    background-color: black;
+    border: 1px solid #DADADA;
     margin: 0 auto;
     width: 30%;
 }

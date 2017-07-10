@@ -1,15 +1,52 @@
+
 .logo{
+
+	height: 5vw;
 	margin: 0 auto;
 
 }
 
+
+.nav:hover{
+border-bottom-color: #424242;
+}
 .nav{
-	margin: 0 auto;
+	
+	float: center;
 	text-align: center;
+	font-family: 'Anton', sans-serif;
+	color: #424242;
+	padding-top: 4%;
+	padding-bottom: 6%;
 }
+
 
 .headsection{
 	background-color: black;
 	text-align: center;
+	font-family: 'Anton', sans-serif;
 	color: #DADADA;
+}
+
+.social{
+	padding-top: 3%;
+	font-size: 200%;
+}
+
+.hometext{
+	text-align: center;
+	font-size: 150%;
+}
+
+.line{
+	border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin: 0 auto;
+    width: 30%;
+}
+
+#homeimage{
+	height: 20vw;
+	margin: 0 auto;
+
 }

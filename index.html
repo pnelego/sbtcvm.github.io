@@ -15,35 +15,44 @@
 	<!-- font awesome for standard icons -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Lato" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 	<div class="row"> 
-		<div class="col-sm-4"> 
+		<div class="col-sm-3"> 
 		</div>
 
 
 		
-		<div class="col-sm-1">
+		<div class="col-sm-2">
+			<a href="download.html">
 			<h2  class="nav">
 			Downloads
 			</h2>
+			</a>
 		</div>
 
 
 		<div class="col-sm-2">
-		<img class = "logo img-responsive" src="assets/logo.png" >
+		<img class = "img-responsive logo" src="assets/logo.png" >
 		</div>
 
-		<div class="col-sm-1">
+		<div class="col-sm-2">
+			<a href="about.html">
 			<h2 class="nav">
 			About
 			</h2>
+			</a>
 		</div>
 
 
-		<div class="col-sm-4">
+		<div class="col-sm-3 social">
+			<i class="fa fa-google-plus-square" aria-hidden="true"></i>
+			<i class="fa fa-github-square" aria-hidden="true"></i>
+
 		</div>
 
 
@@ -51,6 +60,47 @@
 
 	<div class = "row headsection">
 		<h1 style="padding-top: 2%; padding-bottom: 2%;">Home</h1>
+	</div>
+
+
+	<div class = "row">
+		<br>
+
+		<h3 style="text-align: center; font-weight: bold;">What is SBTCVM?</h3>
+		<p class="hometext">
+			SBTCVM is a project to develop a usable balanced ternary virtual machine, <br>
+			as well as develop the related tools, apis, programming languages, libraries and so on.
+		</p>
+
+		<br>
+		<img id="homeimage" class="img-responsive" src="assets/screenshot/intro.jpg">
+		<br>
+		<br>
+
+
+		<div class="line">
+		</div>
+
+		<br>
+
+		
+		<h3 style="text-align: center; font-weight: bold;">Projects</h3>
+		
+		<br>
+		<p class="hometext">
+			<b>SBTCVM Mark 2</b> - The latest and greatest VM developed by the SBTCVM project. <br>
+			It includes a variety of programs, and several utilities, 
+			such as a command shell, and a custom assembler. <br>
+
+			<a href="https://sbtcvm.github.io/SBTCVM-Mark-2/"> Online documentation</a><br>
+			<a href="https://github.com/SBTCVM/SBTCVM-Mark-2"> Repository</a> <br>
+
+			<br>
+			<b> libbaltcalc </b> - SBTCVM's balanced ternary integer mathematics backend and provides powerful <br>balanced ternary integer support to python, It features both a lower level functional API and a <br>high-level class-based API as well. <br>
+
+			<a href="https://sbtcvm.github.io/libbaltcalc/"> Online documentation</a><br>
+			<a href="https://github.com/SBTCVM/libbaltcalc"> Repository</a> <br>
+		</p>
 	</div>
 </body>
 </html>

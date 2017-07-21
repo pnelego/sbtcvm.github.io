@@ -55,6 +55,9 @@
     text-decoration: none !important;
 }
 
+.nav-active{
+    border-bottom: 3px solid #81ADDB;    
+}
 .nav-item:visited{
     text-decoration: none;
 
